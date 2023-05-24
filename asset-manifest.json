@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/www.rockin-coffee.com/static/css/main.3c8aca8f.css",
-    "main.js": "/www.rockin-coffee.com/static/js/main.da647960.js",
-    "static/js/787.0d2b510a.chunk.js": "/www.rockin-coffee.com/static/js/787.0d2b510a.chunk.js",
-    "static/media/pexels-jason-villanueva-851555.jpg": "/www.rockin-coffee.com/static/media/pexels-jason-villanueva-851555.18c0850cab4b8019ef3e.jpg",
-    "static/media/image2vector.svg": "/www.rockin-coffee.com/static/media/image2vector.87c2ad65e19767d27998bd1b42712c5a.svg",
-    "static/media/plain-logo.svg": "/www.rockin-coffee.com/static/media/plain-logo.8e8d55f667059d42c85905a930142c00.svg",
-    "index.html": "/www.rockin-coffee.com/index.html",
-    "main.3c8aca8f.css.map": "/www.rockin-coffee.com/static/css/main.3c8aca8f.css.map",
-    "main.da647960.js.map": "/www.rockin-coffee.com/static/js/main.da647960.js.map",
-    "787.0d2b510a.chunk.js.map": "/www.rockin-coffee.com/static/js/787.0d2b510a.chunk.js.map"
+    "main.css": "./static/css/main.05032a60.css",
+    "main.js": "./static/js/main.751dea99.js",
+    "static/js/787.0d2b510a.chunk.js": "./static/js/787.0d2b510a.chunk.js",
+    "static/media/pexels-jason-villanueva-851555.jpg": "./static/media/pexels-jason-villanueva-851555.18c0850cab4b8019ef3e.jpg",
+    "static/media/image2vector.svg": "./static/media/image2vector.87c2ad65e19767d27998bd1b42712c5a.svg",
+    "static/media/plain-logo.svg": "./static/media/plain-logo.8e8d55f667059d42c85905a930142c00.svg",
+    "index.html": "./index.html",
+    "main.05032a60.css.map": "./static/css/main.05032a60.css.map",
+    "main.751dea99.js.map": "./static/js/main.751dea99.js.map",
+    "787.0d2b510a.chunk.js.map": "./static/js/787.0d2b510a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c8aca8f.css",
-    "static/js/main.da647960.js"
+    "static/css/main.05032a60.css",
+    "static/js/main.751dea99.js"
   ]
 }
