@@ -2,13 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEtsy } from '@fortawesome/free-brands-svg-icons';
 
-import logo from '../assets/image2vector.svg';
+import logo from '../assets/logo.svg';
 
 
 const Home = () => (
   <>
     <body class="flex flex-col h-screen justify-center items-center m-auto">
-      <img src={logo} class="mx-auto" alt="logo" />
+      <img src={logo} class="mx-auto max-w-lg max-h-lg" alt="logo" />
       <p class="text-black text-2xl">
         <b>Rockin' Coffee Co. Website Coming Soon! </b> <br /> <br />
         <form
