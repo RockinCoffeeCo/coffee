@@ -1,17 +1,38 @@
 import React from 'react';
-import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Header from './components/Header';
-import Home from './components/Home';
 import Footer from './components/Footer';
+import Error from './components/Error';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import About from './components/About';
+
+import './App.css';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <Error />
+  },
+  {
+    path: "/about",
+    element: <Home />
+    //replace with element: <About />
+  },
+  {
+    path: "/contact",
+    element: <Contact />
+  }
+])
 
 const App = () => (
-  <div class="text-center">
-    <div className="Background" />
+  <>
     <Header />
-    <Home />
+    <RouterProvider router={router} />
     <Footer />
-  </div>
+  </>
 );
 
 export default App;
