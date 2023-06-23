@@ -8,8 +8,6 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import About from './components/About';
 
-import './App.css';
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <Home />
+    element: <About />
     //replace with element: <About />
   },
   {
