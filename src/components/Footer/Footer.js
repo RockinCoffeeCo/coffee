@@ -13,7 +13,7 @@ const Footer = () => (
         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
           <div>
             <div class="text-center sm:text-left">
-              <p class="text-lg font-medium text-gray-900 dark:text-white">
+              <p class="text-lg font-medium text-white">
                 Contact Us
               </p>
 
@@ -25,7 +25,7 @@ const Footer = () => (
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 shrink-0 text-gray-900 dark:text-white invisible lg:visible"
+                      class="h-5 w-5 shrink-0 text-white invisible lg:visible"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -38,7 +38,7 @@ const Footer = () => (
                       />
                     </svg>
 
-                    <span class="flex-1 text-gray-700 dark:text-gray-300">
+                    <span class="flex-1 text-gray-300">
                       info@rockin-coffee.com
                     </span>
                   </a>
@@ -51,7 +51,7 @@ const Footer = () => (
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="h-5 w-5 shrink-0 text-gray-900 dark:text-white invisible lg:visible"
+                      class="h-5 w-5 shrink-0 text-white invisible lg:visible"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
