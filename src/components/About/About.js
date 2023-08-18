@@ -4,7 +4,7 @@ import bg from './circle-scatter-haikei.svg';
 const About = () => {
 
   return (
-    <div id="about" className="relative w-full h-screen flex flex-col items-center justify-items-center bg-black">
+    <div id="about" className="relative w-full h-[110vh] lg:h-screen flex flex-col items-center justify-items-center bg-black">
       <img id="background" src={bg} className="absolute z-0 top-0 left-0 right-0 bottom-0 w-full h-full" alt="" />
       <div id="content" className="absolute flex flex-col justify-start items-center">
         <h1 className="text-5xl text-white font-notable mt-20 pb-2 mb-10 border-b-[10px] border-double border-white p-4 w-auto"> OUR STORY </h1>
