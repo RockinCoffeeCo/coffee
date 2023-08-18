@@ -1,34 +1,15 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Error from './components/Error';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import About from './components/About';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <Error />
-  },
-  {
-    path: "/about",
-    element: <About />
-    //replace with element: <About />
-  },
-  {
-    path: "/contact",
-    element: <Contact />
-  }
-])
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import About from './components/About/About';
 
 const App = () => (
   <>
     <Header />
-    <RouterProvider router={router} />
+    <Home />
+    <About />
     <Footer />
   </>
 );
