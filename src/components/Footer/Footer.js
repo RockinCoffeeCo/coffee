@@ -96,7 +96,7 @@ const Footer = () => (
                   <address
                     class="-mt-0.5 flex-1 not-italic text-gray-300"
                   >
-                    111 South Park Street, Hohenwald, Tennessee
+                    495 East Main Street Suite 2, Hohenwald, Tennessee
                   </address>
                 </li>
               </ul>
